@@ -1,0 +1,12 @@
+{
+  "resources/assets/css/style.bundle.css": {
+    "file": "assets/style.bundle-71ef0045.css",
+    "isEntry": true,
+    "src": "resources/assets/css/style.bundle.css"
+  },
+  "resources/assets/js/scripts.bundle.js": {
+    "file": "assets/scripts.bundle-d38bb0c7.js",
+    "isEntry": true,
+    "src": "resources/assets/js/scripts.bundle.js"
+  }
+}
