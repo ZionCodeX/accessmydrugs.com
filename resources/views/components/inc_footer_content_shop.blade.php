@@ -9,7 +9,7 @@
                                 <p>Chat with us on WhatsApp now</p>
                             </div>
                             <div class="discover_now">
-                                <a href='https://wa.me/message/WHATSAPPID' target='_blanc'>Visit Official Whatsapp</a>
+                                <a href='https://wa.me/message/WHATSAPPID' target='_blanc'>X Visit Official Whatsapp</a>
                             </div>  
                             <div class="link_follow">
                                 <ul>
