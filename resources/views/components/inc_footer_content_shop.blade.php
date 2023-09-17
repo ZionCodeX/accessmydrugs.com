@@ -39,11 +39,11 @@
                         <div class="widgets_container contact_us">
                             <div class="footer_logo">
                                 <a href="#"><img src="../../assets/img/logo/logo.png?k=1" alt=""></a>
-                            </div>
+                            </div>  
                             <div class="footer_contact">
                                 <p><b>AccessMyDrugs.com</b> is a an Online Pharmacy Store where you can make purchase, request, or place your order on almost any kind of medical drug to be delivered to your doorstep with ease and convenience.</p>
                                 <p><span>Address</span> No.31 Basil Ofia street, satellite town Abulado, Lagos, Nigeria.</p>
-                                <p><span>Need Help?</span><b>Call:</b> <a href="tel:+234 813 565 5742">(+234)-813-565-5742</a> <br> <b>Email:</b> <a href="mailto:admin@accessmydrugs.com">admin@accessmydrugs.com</a></p>
+                                <p><span>Need Help?</span><b>Call:</b> <a href="tel:+234 901 730 0028">(+234) 901 730 0028</a> <br> <b>Email:</b> <a href="mailto:admin@accessmydrugs.com">admin@accessmydrugs.com</a></p>
                             </div>
                         </div>
                     </div>
