@@ -12,8 +12,9 @@
     
         @include('components/inc_main_slide_banner_section_shop')
 
+        @include('components/inc_category1_section_shop')
 
-      
+        @include('components/inc_category2_section_shop')
 
         @include('components/inc_brand_section_shop')
 
