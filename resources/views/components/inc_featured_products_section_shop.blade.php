@@ -35,7 +35,7 @@
                                 </div>
                             </div>
                             <div class="product_thumb">
-                                <a href="{{ route('shop_product_details_view_index', ['product_slug' => $product_featured[0]->product_slug, 'product_category' => $product_featured[0]->product_category, 'pid_product' => $product_featured[0]->pid_product]) }}"><img src='{{ URL::asset('https://admin.accessmydrugs.com/storage/app/product_image') }}/{{ $product_featured[0]->product_image }}?r=@php echo(rand()); @endphp' alt=""></a>
+                                <a href="{{ route('shop_product_details_view_index', ['product_slug' => $product_featured[0]->product_slug, 'product_category' => $product_featured[0]->product_category, 'pid_product' => $product_featured[0]->pid_product]) }}"><img src='{{ URL::asset('https://admin.accessmydrugs.com/public/storage/images') }}/{{ $product_featured[0]->product_image }}?r=@php echo(rand()); @endphp' alt=""></a>
                             </div>
                             <div class="product_content">
                                 <div class="product_ratings">
@@ -93,7 +93,7 @@
                                         </div>
                                     </div>
                                     <div class="product_thumb">
-                                        <a class="primary_img" href="{{ route('shop_product_details_view_index', ['product_slug' => $product->product_slug, 'product_category' => $product->product_category, 'pid_product' => $product->pid_product]) }}"><img src='{{ URL::asset('https://admin.accessmydrugs.com/storage/app/product_image') }}/{{ $product->product_image }}?r=@php echo(rand()); @endphp' alt="" ></a>
+                                        <a class="primary_img" href="{{ route('shop_product_details_view_index', ['product_slug' => $product->product_slug, 'product_category' => $product->product_category, 'pid_product' => $product->pid_product]) }}"><img src='{{ URL::asset('https://admin.accessmydrugs.com/public/storage/images') }}/{{ $product->product_image }}?r=@php echo(rand()); @endphp' alt="" ></a>
                                     </div>
                                 </div>
                                 @endforeach
@@ -124,7 +124,7 @@
                                         </div>
                                     </div>
                                     <div class="product_thumb">
-                                        <a class="primary_img" href="{{ route('shop_product_details_view_index', ['product_slug' => $product->product_slug, 'product_category' => $product->product_category, 'pid_product' => $product->pid_product]) }}"><img src='{{ URL::asset('https://admin.accessmydrugs.com/storage/app/product_image') }}/{{ $product->product_image }}?r=@php echo(rand()); @endphp' alt="" ></a>
+                                        <a class="primary_img" href="{{ route('shop_product_details_view_index', ['product_slug' => $product->product_slug, 'product_category' => $product->product_category, 'pid_product' => $product->pid_product]) }}"><img src='{{ URL::asset('https://admin.accessmydrugs.com/public/storage/images') }}/{{ $product->product_image }}?r=@php echo(rand()); @endphp' alt="" ></a>
                                     </div>
                                 </div>
                                 @endforeach
@@ -156,7 +156,7 @@
                                         </div>
                                     </div>
                                     <div class="product_thumb">
-                                        <a class="primary_img" href="{{ route('shop_product_details_view_index', ['product_slug' => $product->product_slug, 'product_category' => $product->product_category, 'pid_product' => $product->pid_product]) }}"><img src='{{ URL::asset('https://admin.accessmydrugs.com/storage/app/product_image') }}/{{ $product->product_image }}?r=@php echo(rand()); @endphp' alt="" ></a>
+                                        <a class="primary_img" href="{{ route('shop_product_details_view_index', ['product_slug' => $product->product_slug, 'product_category' => $product->product_category, 'pid_product' => $product->pid_product]) }}"><img src='{{ URL::asset('https://admin.accessmydrugs.com/public/storage/images') }}/{{ $product->product_image }}?r=@php echo(rand()); @endphp' alt="" ></a>
                                     </div>
                                 </div>
                                 @endforeach
@@ -186,7 +186,7 @@
                                         </div>
                                     </div>
                                     <div class="product_thumb">
-                                        <a class="primary_img" href="{{ route('shop_product_details_view_index', ['product_slug' => $product->product_slug, 'product_category' => $product->product_category, 'pid_product' => $product->pid_product]) }}"><img src='{{ URL::asset('https://admin.accessmydrugs.com/storage/app/product_image') }}/{{ $product->product_image }}?r=@php echo(rand()); @endphp' alt="" height='300'></a>
+                                        <a class="primary_img" href="{{ route('shop_product_details_view_index', ['product_slug' => $product->product_slug, 'product_category' => $product->product_category, 'pid_product' => $product->pid_product]) }}"><img src='{{ URL::asset('https://admin.accessmydrugs.com/public/storage/images') }}/{{ $product->product_image }}?r=@php echo(rand()); @endphp' alt="" height='300'></a>
                                     </div>
                                 </div>
                                 @endforeach
