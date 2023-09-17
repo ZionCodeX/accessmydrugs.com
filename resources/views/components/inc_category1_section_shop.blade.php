@@ -4,7 +4,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="section_title">
-                        <h2><span> <strong>Supplements </strong>Line</span></h2>
+                        <h2><span> <strong>New </strong>Products</span></h2>
                     </div>
                     
                     
@@ -23,7 +23,7 @@
                                 <img src="{{ URL::asset('https://admin.accessmydrugs.com/public/storage/product_image/drug.jpg') }}" />
                                 <img src="{{ URL::asset('https://admin.accessmydrugs.com/storage/product_image/drug.jpg') }}" />
                                 <img src="{{ URL::asset('https://admin.accessmydrugs.com/storage/app/public/product_image/drug.jpg') }}" />
-                                
+
                                 <a class="primary_img" href="{{ route('shop_product_details_view_index', ['product_slug' => $product->product_slug,'product_category' => $product->product_category,'pid_product' => $product->pid_product]) }}"><img src='{{ URL::asset('https://admin.accessmydrugs.com/storage/app/public/product_image') }}/{{ $product->product_image }}?r=@php echo(rand()); @endphp' alt=""></a>
                                 <!--<a class="secondary_img" href="product-details.html"><img src='{{ URL::asset('storage/app/product_image') }}/{{ $product->product_image }}?r=@php echo(rand()); @endphp")' alt=""></a>-->
                                 <div class="label_product">

@@ -16,6 +16,8 @@
 
         @include('components/inc_category2_section_shop')
 
+        @include('components/inc_category3_section_shop')
+
         @include('components/inc_brand_section_shop')
 
         <!---------------------------------------------------------->

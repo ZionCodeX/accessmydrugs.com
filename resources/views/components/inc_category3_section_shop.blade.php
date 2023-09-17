@@ -4,7 +4,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="section_title">
-                        <h2><span> <strong>Gold  </strong>Bangles</span></h2>
+                        <h2><span> <strong>Antibiotics  </strong>...</span></h2>
                     </div>
                     
                     
