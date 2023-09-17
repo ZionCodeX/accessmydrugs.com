@@ -59,6 +59,7 @@ class ShopController extends Controller
         $data['products7'] = DB::table('products')->where('xstatus',1)->where('product_category','antibacterials')->orderBy('seq','DESC')->limit(8)->get();//products
         $data['products8'] = DB::table('products')->where('xstatus',1)->where('product_category','antibiotics')->orderBy('seq','DESC')->limit(8)->get();//products
         $data['products9'] = DB::table('products')->where('xstatus',1)->where('product_category','anticoagulants_and_thrombolytics')->orderBy('seq','DESC')->limit(8)->get();//products
+        $data['products10'] = DB::table('products')->where('xstatus',1)->where('product_category','vitamins_and_supplements')->orderBy('seq','DESC')->limit(8)->get();//products
                 
         $data['product_featured'] = DB::table('products')->where('xstatus',1)->orderBy('featured_timestamp','DESC')->limit(1)->get();//product
         
@@ -69,6 +70,7 @@ class ShopController extends Controller
         $data['products_featured5'] = DB::table('products')->where('xstatus',1)->where('product_category','antiarrhythmics')->orderBy('featured_timestamp','DESC')->limit(3)->get();//products
         $data['products_featured6'] = DB::table('products')->where('xstatus',1)->where('product_category','antibacterials')->orderBy('featured_timestamp','DESC')->limit(3)->get();//products
         $data['products_featured7'] = DB::table('products')->where('xstatus',1)->where('product_category','antibiotics')->orderBy('featured_timestamp','DESC')->limit(3)->get();//products
+        $data['products_featured10'] = DB::table('products')->where('xstatus',1)->where('product_category','vitamins_and_supplements')->orderBy('featured_timestamp','DESC')->limit(3)->get();//products
         //////////////////// REQUIRED CORE DATA ////////////////////
 
         //dd($data['product_featured']);

@@ -105,7 +105,7 @@
                             
                             <div class="small_product">
                                 
-                                @foreach($products_featured2 as $product)
+                                @foreach($products_featured10 as $product)
                                 <div class="single_product">
                                     <div class="product_content">
                                         <h3><a href="{{ route('shop_product_details_view_index', ['product_slug' => $product->product_slug, 'product_category' => $product->product_category, 'pid_product' => $product->pid_product]) }}">{{ $product->product_name }}</a></h3>
