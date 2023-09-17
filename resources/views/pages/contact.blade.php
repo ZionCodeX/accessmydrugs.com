@@ -57,7 +57,7 @@
                         <ul>
                             <li><i class="fa fa-fax"></i> Address : No.31 Basil Ofia street, satellite town Abulado, Lagos, Nigeria.</li>
                             <li><i class="fa fa-phone"></i> <a href="mailto:admin@spreaditglobal.com">admin@accessmydrugs.com</a></li>
-                            <li><i class="fa fa-envelope-o"></i><a href="tel:+234 813 565 5742">(+234)-813-565-5742</a> </li>
+                            <li><i class="fa fa-envelope-o"></i><a href="tel:+234 901 730 0028">(+234) 901 730 0028</a> </li>
                         </ul>
                     </div>
                 </div>
