@@ -20,16 +20,14 @@
                             </div>
                             
                             <div class="product_thumb">
-                                <img src="{{ URL::asset('https://admin.accessmydrugs.com/public/storage/product_image/drug.jpg') }}" />
-                                <img src="{{ URL::asset('https://admin.accessmydrugs.com/storage/product_image/drug.jpg') }}" />
-                                <img src="{{ URL::asset('https://admin.accessmydrugs.com/storage/app/public/product_image/drug.jpg') }}" />
-
+                                  
                                 <a class="primary_img" href="{{ route('shop_product_details_view_index', ['product_slug' => $product->product_slug,'product_category' => $product->product_category,'pid_product' => $product->pid_product]) }}"><img src='{{ URL::asset('https://admin.accessmydrugs.com/public/storage/images') }}/{{ $product->product_image }}?r=@php echo(rand()); @endphp' alt=""></a>
                                 <!--<a class="secondary_img" href="product-details.html"><img src='{{ URL::asset('https://admin.accessmydrugs.com/public/storage/images') }}/{{ $product->product_image }}?r=@php echo(rand()); @endphp")' alt=""></a>-->
                                 <div class="label_product">
                                     <span class="label_sale">{{ number_format($product->product_quantity) }} in stock</span>
                                 </div>
 
+                                
                                 <div class="action_links">
                                     <ul>
                                         <li class="quick_button"><a href="#" data-bs-toggle="modal" data-bs-target="#modal_box" title="quick view"> <span class="lnr lnr-magnifier"></span></a></li>
