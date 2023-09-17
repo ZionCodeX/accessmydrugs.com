@@ -12,7 +12,7 @@
                     <div class="product_carousel product_column5 owl-carousel">
                         
                         
-                    @foreach($products2 as $product)
+                    @foreach($products10 as $product)
                         <div class="single_product">
                             
                             <div class="product_name">
