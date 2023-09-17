@@ -82,7 +82,7 @@
                         <div id="menu" class="text-left ">
                             <ul class="offcanvas_main_menu">
                                         <li class="menu-item-has-children"><span class="menu-expand"><i class="fa fa-angle-down"></i></span>
-                                            <a href="#">Home</a>
+                                            <a href="#">XHome</a>
                                             <ul class="sub-menu" style="display: none;">
                                                         <li><a href="https://accessmydrugs.com" target='_blanc'>Home</a></li>
                                                         <li class="home7new"><a href="https://blog.accessmydrugs.com">Blog</a></li>
