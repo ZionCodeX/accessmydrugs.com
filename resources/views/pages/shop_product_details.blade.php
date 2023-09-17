@@ -38,11 +38,9 @@
 
                         <div id="img-1" class="zoomWrapper single-zoom">
                             <!--<a href="#">-->
-                                <img id="zoom1" src='{{ URL::asset('https://admin.accessmydrugs.com/storage/app/product_image') }}/{{ $product->product_image }}?r=@php echo(rand()); @endphp")' data-zoom-image='{{ URL::asset('https://admin.accessmydrugs.com/storage/app/product_image') }}/{{ $product->product_image }}?r=@php echo(rand()); @endphp' alt="big-1">
+                                <img id="zoom1" src='{{ URL::asset('https://admin.accessmydrugs.com/public/storage/images') }}/{{ $product->product_image }}?r=@php echo(rand()); @endphp")' data-zoom-image='{{ URL::asset('https://admin.accessmydrugs.com/storage/app/product_image') }}/{{ $product->product_image }}?r=@php echo(rand()); @endphp' alt="big-1">
                             <!--</a>-->
                         </div>
-
-
 
 
 
@@ -205,38 +203,18 @@
                             
                             <hr>
 
-                            
-                                @if(($product->product_category == 'LUXURY_PERFUMES') || 
-                                    ($product->product_category == 'PERFUMES_FOR_MEN') ||
-                                    ($product->product_category == 'PERFUMES_FOR_WOMEN') ||
-                                    ($product->product_category == 'WATCHES') ||
-                                    ($product->product_category == 'GENERAL'))
+                                
+                                
+                                
+                                @if(($product->product_category == 'general') || 
+                                    ($product->product_category == 'vitamins_and_supplements') ||
+                                    ($product->product_category == 'antibiotics'))
                                     <p>
-                                    This product is shipped from Dubai and this amount includes international shipping and clearing costs plus local delivery cost to you in Nigeria. You will not be required to make any other payment.<br>
-                                    <i>Expected Delivery Timeline: 10 business days.</i>
+                                        <i>Estimated Delivery Time is 1 to 2 business days. This length of time is determined by the time of the day the order is made.</i>
                                     </p>
                                 @endif
                                 
                                 
-                                
-                                @if(($product->product_category == 'GOLD_AND_SILVER_BULLION') || 
-                                    ($product->product_category == 'GOLD_NECKLACES_AND_EARINGS') ||
-                                    ($product->product_category == 'GOLD_BRACELETS') ||
-                                    ($product->product_category == 'GOLD_RINGS'))
-                                    <p>
-                                    The price of gold varies, so this may not be the final price. Contact us before placing an order. This price includes price of gold, workmanship, international shipping and clearing plus local delivery to you in Nigeria. For Necklaces and earrings set, price quoted is for the set. If you wish to buy either Necklace or Earrings, please, contact us.<br>
-                                    <i>Estimated Delivery Time is 10 to 20 business days. This length of time is required as each gold jewelry is made on order.</i>
-                                    </p>
-                                @endif
-                                
-                                
-                                
-                                @if($product->product_category == 'WATCHES')
-                                    <p>
-                                    This wristwatch comes in a box and this price covers delivery to you. If you need more clarification, please, <a href="https://wa.me/message/CUR7YKW3K3RBA1" target="_blanc"><b>Chat with us</b></a><br>
-                                    <i>Expected Delivery Timeline: 10 business days.</i>
-                                    </p>
-                                @endif
                                 
                                 
                                 
