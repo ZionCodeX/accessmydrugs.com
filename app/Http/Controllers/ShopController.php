@@ -50,34 +50,32 @@ class ShopController extends Controller
         //////////////////// REQUIRED CORE DATA ////////////////////
         //heavy loaders
 
-        $data['products1'] = DB::table('products')->where('xstatus',1)->where('product_category','GOLD_AND_SILVER_BULLION')->orderBy('seq','DESC')->limit(8)->get();//products
-        $data['products2'] = DB::table('products')->where('xstatus',1)->where('product_category','GOLD_NECKLACES_AND_EARINGS')->orderBy('seq','DESC')->limit(8)->get();//products
-        $data['products3'] = DB::table('products')->where('xstatus',1)->where('product_category','GOLD_BANGLES')->orderBy('seq','DESC')->limit(8)->get();//products
-        $data['products4'] = DB::table('products')->where('xstatus',1)->where('product_category','GOLD_RINGS')->orderBy('seq','DESC')->limit(8)->get();//products
-        $data['products5'] = DB::table('products')->where('xstatus',1)->where('product_category','LUXURY_PERFUMES')->orderBy('seq','DESC')->limit(8)->get();//products
-        $data['products6'] = DB::table('products')->where('xstatus',1)->where('product_category','PERFUMES_FOR_MEN')->orderBy('seq','DESC')->limit(8)->get();//products
-        $data['products7'] = DB::table('products')->where('xstatus',1)->where('product_category','PERFUMES_FOR_WOMEN')->orderBy('seq','DESC')->limit(8)->get();//products
-        $data['products8'] = DB::table('products')->where('xstatus',1)->where('product_category','WATCHES')->orderBy('seq','DESC')->limit(8)->get();//products
-        $data['products9'] = DB::table('products')->where('xstatus',1)->where('product_category','GENERAL')->orderBy('seq','DESC')->limit(8)->get();//products
+        $data['products1'] = DB::table('products')->where('xstatus',1)->orderBy('seq','DESC')->limit(8)->get();//products
+        $data['products2'] = DB::table('products')->where('xstatus',1)->where('product_category','general')->orderBy('seq','DESC')->limit(8)->get();//products
+        $data['products3'] = DB::table('products')->where('xstatus',1)->where('product_category','analgesics')->orderBy('seq','DESC')->limit(8)->get();//products
+        $data['products4'] = DB::table('products')->where('xstatus',1)->where('product_category','antacids')->orderBy('seq','DESC')->limit(8)->get();//products
+        $data['products5'] = DB::table('products')->where('xstatus',1)->where('product_category','antianxiety_drugs')->orderBy('seq','DESC')->limit(8)->get();//products
+        $data['products6'] = DB::table('products')->where('xstatus',1)->where('product_category','antiarrhythmics')->orderBy('seq','DESC')->limit(8)->get();//products
+        $data['products7'] = DB::table('products')->where('xstatus',1)->where('product_category','antibacterials')->orderBy('seq','DESC')->limit(8)->get();//products
+        $data['products8'] = DB::table('products')->where('xstatus',1)->where('product_category','antibiotics')->orderBy('seq','DESC')->limit(8)->get();//products
+        $data['products9'] = DB::table('products')->where('xstatus',1)->where('product_category','anticoagulants_and_thrombolytics')->orderBy('seq','DESC')->limit(8)->get();//products
                 
         $data['product_featured'] = DB::table('products')->where('xstatus',1)->orderBy('featured_timestamp','DESC')->limit(1)->get();//product
         
-        $data['products_featured1'] = DB::table('products')->where('xstatus',1)->where('product_category','LUXURY_PERFUMES')->orderBy('featured_timestamp','DESC')->limit(3)->get();//products
-        $data['products_featured2'] = DB::table('products')->where('xstatus',1)->where('product_category','GOLD_NECKLACES_AND_EARINGS')->orderBy('featured_timestamp','DESC')->limit(3)->get();//products
-        $data['products_featured3'] = DB::table('products')->where('xstatus',1)->where('product_category','GOLD_BANGLES')->orderBy('featured_timestamp','DESC')->limit(3)->get();//products
-        $data['products_featured4'] = DB::table('products')->where('xstatus',1)->where('product_category','WATCHES')->orderBy('featured_timestamp','DESC')->limit(3)->get();//products
-        $data['products_featured5'] = DB::table('products')->where('xstatus',1)->where('product_category','GOLD_RINGS')->orderBy('featured_timestamp','DESC')->limit(3)->get();//products
-        $data['products_featured6'] = DB::table('products')->where('xstatus',1)->where('product_category','PERFUMES_FOR_MEN')->orderBy('featured_timestamp','DESC')->limit(3)->get();//products
-        $data['products_featured7'] = DB::table('products')->where('xstatus',1)->where('product_category','PERFUMES_FOR_WOMEN')->orderBy('featured_timestamp','DESC')->limit(3)->get();//products
+        $data['products_featured1'] = DB::table('products')->where('xstatus',1)->where('product_category','general')->orderBy('featured_timestamp','DESC')->limit(3)->get();//products
+        $data['products_featured2'] = DB::table('products')->where('xstatus',1)->where('product_category','analgesics')->orderBy('featured_timestamp','DESC')->limit(3)->get();//products
+        $data['products_featured3'] = DB::table('products')->where('xstatus',1)->where('product_category','antacids')->orderBy('featured_timestamp','DESC')->limit(3)->get();//products
+        $data['products_featured4'] = DB::table('products')->where('xstatus',1)->where('product_category','antianxiety_drugs')->orderBy('featured_timestamp','DESC')->limit(3)->get();//products
+        $data['products_featured5'] = DB::table('products')->where('xstatus',1)->where('product_category','antiarrhythmics')->orderBy('featured_timestamp','DESC')->limit(3)->get();//products
+        $data['products_featured6'] = DB::table('products')->where('xstatus',1)->where('product_category','antibacterials')->orderBy('featured_timestamp','DESC')->limit(3)->get();//products
+        $data['products_featured7'] = DB::table('products')->where('xstatus',1)->where('product_category','antibiotics')->orderBy('featured_timestamp','DESC')->limit(3)->get();//products
         //////////////////// REQUIRED CORE DATA ////////////////////
 
         //dd($data['product_featured']);
         return view('pages/shop', $data);exit;
 
     }
-
-
-
+          
 
 
 

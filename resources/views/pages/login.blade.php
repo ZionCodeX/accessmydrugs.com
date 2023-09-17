@@ -6,7 +6,7 @@
 	<!--begin::Head-->
 	<head><base href="">
 		<meta charset="utf-8" />
-		<title>Login | SpreaditGlobal</title>
+		<title>Login | AccessMyDrugs</title>
 		<meta name="description" content="Login page example" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 		<link rel="canonical" href="https://spareaditglobal.com" />
@@ -44,7 +44,7 @@
 						<!--begin::Login Header-->
 						<div class="d-flex flex-center mb-15">
 							<a href="#">
-								<img src="{!! url('assets/media/logos/spreadit-logo3x.png'); !!}" class="max-h-75px" alt="" />
+								<img src="{!! url('assets/media/logos/logo.png'); !!}" class="max-h-75px" alt="" />
 							</a>
 						</div>
 						<!--end::Login Header-->
@@ -54,7 +54,7 @@
 						<!--begin::Login Sign in form-->
 						<div class="login-signin">
 							<div class="mb-10">
-								<h3>SPREADIT SHOP</h3>
+								<h3>ACCESS MY DRUGS SHOP</h3>
 								<div class="text-muted font-weight-bold">Admin Login details here</div>
 							</div>
 
@@ -104,7 +104,7 @@
 
 
 							<div class="mt-10">
-								<span class="opacity-0 mr-4" style="color: grey;">Having issues signing in? Contact the admin or send a mail to<br> <b>admin@spreaditglobal.com</b>.</span>
+								<span class="opacity-0 mr-4" style="color: grey;">Having issues signing in? Contact the admin or send a mail to<br> <b>admin@accessmydrugs.com</b>.</span>
 								<!--<a href="javascript:;" id="kt_login_signup" class="text-muted text-hover-primary font-weight-bold">Sign Up!</a>-->
                             </div>
 						</div>

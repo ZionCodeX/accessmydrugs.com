@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html class="loading" lang="{{ str_replace('_', '-', app()->getLocale()) }}" data-textdirection="ltr">
 <!--
-Name : Directoreel App
-Author: Directoreel Limited
-Website: https://www.directoreel.com/
-Contact: info@directoreel.com
+Name : AccessMyDrugs App
+Author: AccessMyDrugs Limited
+Website: https://www.accessmydrugs.com/
+Contact: info@accessmydrugs.com
 -->
 <html lang="en">
 
@@ -15,8 +15,8 @@ Contact: info@directoreel.com
           <meta charset="utf-8" />
           <!-- CSRF Token -->
           <meta name="csrf-token" content="{{ csrf_token() }}">
-          <title>@yield('title') | Directoreel </title>
-          <meta name="Directoreel" content="Directoreel" />
+          <title>@yield('title') | Access My Drugs </title>
+          <meta name="Access My Drugs" content="AccessMyDrugs" />
           <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
           <!-- CSRF Token -->
 		      @include('components/inc_header_links')
@@ -46,8 +46,8 @@ Contact: info@directoreel.com
 					<div class="brand flex-column-auto" id="kt_brand">
 						
 						<!--begin::Logo-->
-						<a href="https://www.directoreel.com" class="brand-logo">
-							<img alt="Logo" src="{{ url('assets/media/logos/directoreel_logo2.png'); }}" height="45px" />
+						<a href="https://www.accessmydrugs.com" class="brand-logo">
+							<img alt="Logo" src="{{ url('assets/media/logos/logo.png'); }}" height="45px" />
 						</a>
 						<!--end::Logo-->
 
