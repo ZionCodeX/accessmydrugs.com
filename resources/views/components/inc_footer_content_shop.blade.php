@@ -45,7 +45,7 @@
                                 <p><span>Address</span> No.31 Basil Ofia street, satellite town Abulado, Lagos, Nigeria.</p>
                                 <p><span>Need Help?</span><b>Call:</b> <a href="tel:+234 901 730 0028">(+234) 901 730 0028</a> <br> <b>Email:</b> <a href="mailto:admin@accessmydrugs.com">admin@accessmydrugs.com</a></p>
                             </div>
-                        </div>
+                        </div>  
                     </div>
                     <div class="col-lg-2 col-md-6 col-sm-6">
                         <div class="widgets_container widget_menu">
