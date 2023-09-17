@@ -9,7 +9,7 @@
                                 <p>Chat with us on WhatsApp now</p>
                             </div>
                             <div class="discover_now">
-                                <a href='https://wa.me/message/WHATSAPPID' target='_blanc'>Visit Official Whatsapp</a>
+                                <a href='https://wa.me/message/WDR4QIUBCKILP1' target='_blanc'>Visit Official Whatsapp</a>
                             </div>  
                             <div class="link_follow">
                                 <ul>
@@ -138,7 +138,7 @@
                                 	c-0.065,0.02-0.132,0.04-0.199,0.059C150.181,131.144,139.077,140.169,132.651,152.183z"/>
                                 </svg>
                                 &nbsp;
-                                <a href='https://wa.me/message/WHATSAPP' target='_blanc'><b> Visit Official Whatsapp</b></a></div>-->
+                                <a href='https://wa.me/message/WDR4QIUBCKILP1' target='_blanc'><b> Visit Official Whatsapp</b></a></div>-->
                         </div>
                     </div>
                 </div>

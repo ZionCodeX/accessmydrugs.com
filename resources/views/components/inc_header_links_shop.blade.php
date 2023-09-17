@@ -1,7 +1,7 @@
 
 
 
-        <link rel="canonical" href="https://accessmydrugs.com/" />
+    <link rel="canonical" href="https://accessmydrugs.com/" />
 		<!--begin::Fonts-->
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" />
 		<!--end::Fonts-->
@@ -57,7 +57,7 @@
 
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-<a href="https://wa.me/message/WHATSAPPID" class="float" target="_blank">
+<a href="https://wa.me/message/WDR4QIUBCKILP1" class="float" target="_blank">
 <i class="fa fa-whatsapp my-float"></i>
 </a>
 
