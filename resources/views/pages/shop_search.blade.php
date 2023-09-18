@@ -91,7 +91,7 @@
                                 </div>
                                 
                                 <div class="product_thumb">
-                                    <a class="primary_img" href="{{ route('shop_product_details_view_index', ['product_slug' => $product->product_slug, 'product_category' => $product->product_category, 'pid_product' => $product->pid_product]) }}"><img src='{{ URL::asset('https://admin3.spreaditglobal.com/storage/app/product_image') }}/{{ $product->product_image }}?r=@php echo(rand()); @endphp")' alt=""></a>
+                                    <a class="primary_img" href="{{ route('shop_product_details_view_index', ['product_slug' => $product->product_slug, 'product_category' => $product->product_category, 'pid_product' => $product->pid_product]) }}"><img src='{{ URL::asset('https://admin.accessmydrugs.com/public/storage/images') }}/{{ $product->product_image }}?r=@php echo(rand()); @endphp")' alt=""></a>
                                     <!--<a class="secondary_img" href="product-details.html"><img src="assets/img/product/product11.jpg" alt=""></a>-->
                                     <div class="label_product">
                                         <span class="label_sale">{{ $product->product_quantity }} in stock</span>
