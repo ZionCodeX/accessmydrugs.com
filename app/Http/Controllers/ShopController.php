@@ -374,7 +374,7 @@ class ShopController extends Controller
           curl_setopt($ch,CURLOPT_POST, true);
           curl_setopt($ch,CURLOPT_POSTFIELDS, $fields_string);
           curl_setopt($ch, CURLOPT_HTTPHEADER, array(
-            "Authorization: Bearer sk_live_e5338724a254f5f3fb0fed2bd2792c465d7d8d14",
+            "Authorization: Bearer sk_test_7f07813d1c8519cb6258e3ed56173937430a3863",
             "Cache-Control: no-cache",
           ));
           
@@ -452,7 +452,7 @@ class ShopController extends Controller
                 CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
                 CURLOPT_CUSTOMREQUEST => "GET",
                 CURLOPT_HTTPHEADER => array(
-                  "Authorization: Bearer sk_live_e5338724a254f5f3fb0fed2bd2792c465d7d8d14",
+                  "Authorization: Bearer sk_test_7f07813d1c8519cb6258e3ed56173937430a3863",
                   "Cache-Control: no-cache",
                 ),
               ));
