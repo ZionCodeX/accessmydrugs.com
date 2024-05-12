@@ -18,7 +18,7 @@
                                     </li>-->
 
                                     <li>
-                                        <a href="/tranchepay"><b>-&nbsp;</b> Tranchepay (<b>{{ $my_tranchepays_count ?? 0}}</b>)</a>
+                                        <a href="/tranchepay"><b>-&nbsp;</b> Tranchepay: (<b>None</b>)</a>
                                     </li>
                                     
                                     <!--<li>
