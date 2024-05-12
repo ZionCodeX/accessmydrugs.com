@@ -97,8 +97,8 @@ class DashboardController extends Controller
         $data['my_products'] = DB::table('products_ordered')->where('xstatus',1)->where('pid_user', $pid_user)->orderBy('id','DESC')->limit(20)->get();//products
         
         //tranchepay
-        $data['my_tranchepays_count'] = DB::table('paystack_subscriptions')->where('xstatus',1)->where('pid_user', $pid_user)->count();//counts
-        $data['my_tranchepays'] = DB::table('paystack_subscriptions')->where('xstatus',1)->where('pid_user', $pid_user)->orderBy('id','DESC')->limit(20)->get();//products
+        //$data['my_tranchepays_count'] = DB::table('paystack_subscriptions')->where('xstatus',1)->where('pid_user', $pid_user)->count();//counts
+        //$data['my_tranchepays'] = DB::table('paystack_subscriptions')->where('xstatus',1)->where('pid_user', $pid_user)->orderBy('id','DESC')->limit(20)->get();//products
         $data['my_products'] = DB::table('products_ordered')->where('xstatus',1)->where('pid_user', $pid_user)->orderBy('id','DESC')->limit(20)->get();//products
         
         //account details
@@ -154,8 +154,8 @@ class DashboardController extends Controller
         $data['my_products'] = DB::table('products_ordered')->where('xstatus',1)->where('pid_user', $pid_user)->orderBy('id','DESC')->limit(20)->get();//products
         
         //tranchepay
-        $data['my_tranchepays_count'] = DB::table('paystack_subscriptions')->where('xstatus',1)->where('pid_user', $pid_user)->count();//counts
-        $data['my_tranchepays'] = DB::table('paystack_subscriptions')->where('xstatus',1)->where('pid_user', $pid_user)->orderBy('id','DESC')->limit(20)->get();//products
+        //$data['my_tranchepays_count'] = DB::table('paystack_subscriptions')->where('xstatus',1)->where('pid_user', $pid_user)->count();//counts
+        //$data['my_tranchepays'] = DB::table('paystack_subscriptions')->where('xstatus',1)->where('pid_user', $pid_user)->orderBy('id','DESC')->limit(20)->get();//products
         $data['my_products'] = DB::table('products_ordered')->where('xstatus',1)->where('pid_user', $pid_user)->orderBy('id','DESC')->limit(20)->get();//products
         
         //account details
