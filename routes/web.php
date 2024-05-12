@@ -59,7 +59,7 @@ Route::post('/paystack/subscription/processing', [App\Http\Controllers\ShopContr
 Route::post('/paystack/subscription/processing2', [App\Http\Controllers\ShopController::class, 'paystack_subscription_processing2'])->name('paystack_subscription_processing2');
 Route::get('/paystack/pay/subscription/{plan_code?}/{pid_subscription?}/payment/link', [App\Http\Controllers\ShopController::class, 'pay_subscription'])->name('pay_subscription');
 
-
+ 
 //HOME PAGES ROUTES
 Route::get('/index', [App\Http\Controllers\DashboardController::class, 'dashboard'])->name('dashboard');
 
