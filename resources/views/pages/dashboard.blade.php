@@ -44,7 +44,7 @@
 
                             
                             
-                                                        @if(($my_tranchepays_count == 0))
+                                                        @if(("my_tranchepays_count" == "my_tranchepays_count"))
                                                             <b> No Records available</b>
                                                         @endif
                            
