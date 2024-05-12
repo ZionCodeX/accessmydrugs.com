@@ -37,7 +37,7 @@
                                             <!--<li><a href="#">Shopping Cart</a></li>-->
                                             @if (Auth::check())
                                                   <li><a href="/dashboard">My Account </a></li>
-                                                  <li><a href="/dashboard#orders">Orders</a></li>
+                                                  <li><a href="/dashboard">Orders</a></li>
                                                   <li><a href="/logout">Logout</a></li>
                                             @else
                                                   <li><a href="#">Checkout </a></li>
