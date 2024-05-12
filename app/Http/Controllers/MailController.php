@@ -23,10 +23,10 @@ class MailController extends Controller
             $data['mail_template'] = $xdata["mail_template"];
         
             //send mail
-            \Mail::to($data["to"])->send(new SendMail($data));
+            //\Mail::to($data["to"])->send(new SendMail($data));
 
             //check and respond to mail request
-            if (\Mail::failures()) 
+            if (\Mail::to($data["to"])->send(new SendMail($data))) 
             {   
                 //dd('failed');
                 $send_status = 'SUCCESS';
