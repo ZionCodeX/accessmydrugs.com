@@ -1,112 +1,93 @@
 
-@extends('layouts.base')
+@extends('layouts.base_shop')
 
 
-@section('title', 'Payment Status')
+@section('title', 'About')
 
 
-@section('header_links')
-    @parent
-@endsection
-
-
-@section('alert_messages')
-    @parent
-@endsection
-
-
-@section('sidebar')
-    @parent
-@endsection
-
- 
 <!-- MAIN PAGE CONTENT STARTS -->
 @section('content')
-    <!---------------------------------------------------------->
-    <div class="card card-custom gutter-b">
-      <div class="card-header">
-       <div class="card-title">
-        <h3 class="card-label">
-         Payment Status
-         <small></small>
-        </h3>
-       </div>
-      </div>
-      <div class="card-body">
-<!--::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::-->
+
+        <!---------------------------------------------------------->
+        
+<div class="breadcrumbs_area">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="breadcrumb_content">
+                        <ul>
+                            <li><a href="/" _msttexthash="46891" _msthash="137">Home</a></li>
+                            <li _msttexthash="429858" _msthash="138">About</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+<div class="contact_map mt-30">
+        <div class="container">
+            <div class="row">    
+    
+    
+ <div class="blog_details_wrapper">
+                        <!--<div class="blog_thumb">
+                            <a href="#"><img src="assets/img/blog/blog-big1.jpg" alt=""></a>
+                        </div>-->
+                        <div class="blog_content">
+                            <h1 class="post_title">Payment was Successful</h1>
+                            <!--<div class="post_meta">
+                                <span><i class="ion-person"></i> Posted by </span>
+                                <span><a href="#">admin</a></span>
+                                <span>|</span>
+                                <span><i class="fa fa-calendar" aria-hidden="true"></i>  Posted on  March 10, 2019	</span>
+
+                            </div>-->
+                            <div class="post_content">
+                                <h3>
+                                    Your payment was successful! Thank you for doing business with AccessMyDrugs, our Processing Team will contact you shortly, you may also login to your account to see your order status.
+                                </h3>
+
+                                <hr>
+                                
+                                <blockquote>
+                                    <p>
+                                      <b>Address:</b> No.31 Basil Ofia street, satellite town Abulado, Lagos, Nigeria.
+                                    </p>
+                                </blockquote>
+                                
+                               
+                                
+                                
+                            
+                            </div>
+                            <div class="entry_content">
+
+                                <div class="social_sharing">
+                                    <h3>Visit our Social Media: </h3>
+                                    <ul>
+                                        <li><a href="https://web.facebook.com/accessmydrugs" title="facebook"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href="https://twitter.com/accessmydrugs" title="twitter"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a href="https://www.instagram.com/accessmydrugs" title="instagram"><i class="fa fa-instagram"></i></a></li>
+                                        <li><a href="https://www.youtube.com/accessmydrugs" title="linkedin"><i class="fa fa-youtube"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        
 
 
+                    </div>   
+    
+    
+    </div></div></div>
+    
 
-<table class="table">
-    <thead>
-        <tr>
-            <th scope="col">#</th>
-            <th scope="col">Order ID</th>
-            <th scope="col">Order Name</th>
-            <th scope="col">Payment Type</th>
-            <th scope="col">Amount</th>
-            <th scope="col">Status</th>
-            <th scope="col">Date</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <th scope="row">1</th>
-            <td>236563</td>
-            <td>Office Chair</td>
-            <td>BANK</td>
-            <td>$2500</td>
-            <td>
-                <span class="label label-inline label-light-success font-weight-bold">
-                    APPROVED
-                </span>
-            </td>
-            <td>23-04-2021</td>
-        </tr>
-        <tr>
-            <th scope="row">2</th>
-            <td>756232</td>
-            <td>Folder Boxes</td>
-            <td>BANK</td>
-            <td>$700</td>
-            <td>
-                <span class="label label-inline label-light-danger font-weight-bold">
-                    PENDING
-                </span>
-            </td>
-            <td>27-04-2021</td>
-        </tr>
-        <tr>
-            <th scope="row">3</th>
-            <td>5652342</td>
-            <td>Plastic Chairs</td>
-            <td>CARD</td>
-            <td>$1300</td>
-            <td>
-                <span class="label label-inline label-light-success font-weight-bold">
-                    APPROVED
-                </span>
-            </td>
-            <td>29-04-2021</td>
-        </tr>
-    </tbody>
-</table>
+        <!---------------------------------------------------------->
 
-
-<!--::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::-->
-      </div>
-     </div>
-    <!---------------------------------------------------------->
 @endsection 
 <!-- MAIN PAGE CONTENT STOPS -->
 
 
-@section('footer')
-    @parent
-@endsection 
-
-
-
-@section('footer_scripts')
-    @parent
-@endsection  
