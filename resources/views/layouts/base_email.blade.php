@@ -80,7 +80,7 @@ width: 100% !important;
 <td style="box-sizing: border-box; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; position: relative;">
 
 <!--
-    <a href="http://localhost/spreaditglobal.com/email/verify/11/1e9d0f6790701a1fd23ef80f98d83f7cb4ff8061?expires=1627210829&amp;signature=678a9c8cf741e180e864c48734154da3aa225e1bb7e56e5634cd9b13d58c732c" class="button button-primary" target="_blank" rel="noopener" style="box-sizing: border-box; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; position: relative; -webkit-text-size-adjust: none; border-radius: 4px; color: #fff; display: inline-block; overflow: hidden; text-decoration: none; background-color: #2d3748; border-bottom: 8px solid #2d3748; border-left: 18px solid #2d3748; border-right: 18px solid #2d3748; border-top: 8px solid #2d3748;">
+    <a href="http://accessmydrugs.com/email/verify/11/1e9d0f6790701a1fd23ef80f98d83f7cb4ff8061?expires=1627210829&amp;signature=678a9c8cf741e180e864c48734154da3aa225e1bb7e56e5634cd9b13d58c732c" class="button button-primary" target="_blank" rel="noopener" style="box-sizing: border-box; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; position: relative; -webkit-text-size-adjust: none; border-radius: 4px; color: #fff; display: inline-block; overflow: hidden; text-decoration: none; background-color: #2d3748; border-bottom: 8px solid #2d3748; border-left: 18px solid #2d3748; border-right: 18px solid #2d3748; border-top: 8px solid #2d3748;">
         Verify Email Address
     </a>
 -->
@@ -105,8 +105,8 @@ width: 100% !important;
             If you're having trouble clicking the "Verify Email Address" button, copy and paste the URL below
             into your web browser: 
             <span class="break-all" style="box-sizing: border-box; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; position: relative; word-break: break-all;">
-                <a href="http://localhost/spreaditglobal.com/email/verify" style="box-sizing: border-box; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; position: relative; color: #3869d4;">
-                    http://localhost/spreaditglobal.com/email/verify
+                <a href="https://accessmydrugs.com/email/verify" style="box-sizing: border-box; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; position: relative; color: #3869d4;">
+                    https://accessmydrugs.com/email/verify
                 </a>
             </span>
         </p>
@@ -132,8 +132,8 @@ width: 100% !important;
                 <tr>
                     <td class="content-cell" align="center" style="box-sizing: border-box; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; position: relative; max-width: 100vw; padding: 32px;">
 
-                        <a href="https://www.procurement.spreaditglobal.com" class="brand-logo">
-							<img alt="Logo" src="{{ url('assets/media/img/logo/logo.png'); }}" height="45px" />
+                        <a href="https://www.accessmydrugs.com" class="brand-logo">
+							<img alt="Logo" src="{{ url('assets/img/logo/logo.png?k=5'); }}" height="45px" />
 						</a>
 
                         <p style="box-sizing: border-box; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; position: relative; line-height: 1.5em; margin-top: 0; color: #b0adc5; font-size: 12px; text-align: center;">

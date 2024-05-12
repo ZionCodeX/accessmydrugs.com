@@ -26,7 +26,8 @@ class MailController extends Controller
             \Mail::to($data["to"])->send(new SendMail($data));
 
             //check and respond to mail request
-            if (\Mail::failures()) 
+            //check and respond to mail request
+            if (\Mail::to($data["to"])->send(new SendMail($data))) 
             {   
                 //dd('failed');
                 $send_status = 'SUCCESS';
