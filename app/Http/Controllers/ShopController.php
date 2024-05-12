@@ -407,7 +407,8 @@ class ShopController extends Controller
                 $data['payment_status'] = 'Payment Failed!';
                 \Session::flash('success', 'Payment Failed!');
                 //return redirect('order/order_request_pending/view/index');exit;
-                return redirect()->route('shop', $data);
+                return view('pages.payment-status-failed');
+                //return redirect()->route('shop', $data);
           }
         
 
@@ -530,7 +531,7 @@ class ShopController extends Controller
                     <b>Transaction Details</b><hr>
                     Reference: <b>".$reference."</b><br>
                     Order ID: <b>".$pid_order."</b><br>
-                    Total Cost: <b>₦".number_format($amount)."</b>
+                    Total Cost: <b>₦".number_format($amount/100)."</b>
                     <br><br>
                     Thank you. 
                     <br><br>
@@ -547,7 +548,7 @@ class ShopController extends Controller
                     $xdata['message_title'] = $message_title;
                     $xdata['message_body'] = $message_body;
                     //$xdata['message_designation'] = "<b>Nkwocha Tochukwu</b><br>Founder / CEO <br>";
-                    $xdata['from'] = 'admin@accessmydrugs.com';
+                    $xdata['from'] = 'amd@accessmydrugs.com';
                     $xdata['message_designation'] = "<b>PROCESSING TEAM</b><br> AccessMyDrugs Order Processing Team<br>";
                     $xdata['mail_template'] = 'emails.general_email';
                     //send mail
