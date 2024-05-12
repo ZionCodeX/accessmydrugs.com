@@ -37,7 +37,7 @@
                             <a href="#"><img src="assets/img/blog/blog-big1.jpg" alt=""></a>
                         </div>-->
                         <div class="blog_content">
-                            <h1 class="post_title">Payment was Successful</h1>
+                            <h2 class="post_title">Payment Failed!</h2>
                             <!--<div class="post_meta">
                                 <span><i class="ion-person"></i> Posted by </span>
                                 <span><a href="#">admin</a></span>
@@ -46,9 +46,9 @@
 
                             </div>-->
                             <div class="post_content">
-                                <h>
-                                    Your payment was successful! Thank you for doing business with AccessMyDrugs, our Processing Team will contact you shortly, you may also login to your account to see your order status.
-                                </h3>
+                                <h4>
+                                    Your payment was not successful! You may chat with us on <b>WhatsApp</b> to assist you further.
+                                </h4>
 
                                 <hr>
 

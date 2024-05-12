@@ -37,6 +37,7 @@ class MailController extends Controller
                 //dd('successful');
                 $send_status = 'FAILED';
                 return $send_status;
+                return view('pages.payment-status-failed');
                 //return back()->with('success','Mail was Succeessfully sent.');
             }
     }
