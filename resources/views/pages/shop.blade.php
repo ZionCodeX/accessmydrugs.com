@@ -10,7 +10,7 @@
 
         <!---------------------------------------------------------->
     
-
+        @include('components/inc_main_slide_banner_section_shop')
 
         @include('components/inc_shop_features_section_shop')
 
