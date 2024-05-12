@@ -35,12 +35,12 @@
                                         <ul class="dropdown_links">
 
                                             <!--<li><a href="#">Shopping Cart</a></li>-->
-                                            <li><a href="#">Checkout </a></li>
                                             @if (Auth::check())
-                                                <li><a href="/dashboard">My Account </a></li>
-                                                <li><a href="/dashboard#orders">Orders</a></li>
-                                                <li><a href="/logout">Logout</a></li>
+                                                  <li><a href="/dashboard">My Account </a></li>
+                                                  <li><a href="/dashboard#orders">Orders</a></li>
+                                                  <li><a href="/logout">Logout</a></li>
                                             @else
+                                                  <li><a href="#">Checkout </a></li>
                                                   <li><a href="/login"><b>Login</b></a></li>
                                                   <li><a href="/register"><b>SignUp</b></a></li>
                                             @endif
